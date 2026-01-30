@@ -1,0 +1,107 @@
+@charset "utf-8";
+
+/* html {
+    scroll-behavior: smooth;
+}
+
+.wrappre {
+    display: flex;
+    gap: 3rem;
+    align-items: flex-start;
+    max-width: 800px;
+    margin: auto;
+}
+
+main {
+    flex: 4;
+}
+
+h1 {
+    margin: 4rem 0;
+    text-align: center;
+}
+
+h2 {
+    margin-top: 4rem;
+    font-size: 2rem;
+}
+
+p {
+    font-size: 1.25rem;
+}
+
+.heading {
+    scroll-margin-top: 2rem;
+}
+
+.menu {
+    position: sticky;
+    top: 2rem;
+    background: #eee;
+    list-style: none;
+    flex: 1;
+    margin-top: 4rem;
+    padding: 1rem 2rem;
+}
+
+.menu a {
+    display: block;
+    color: #0bd;
+    padding: 1rem 0;
+    text-decoration: none;
+} */
+
+/* スムーズスクロール */
+html{
+  scroll-behavior: smooth;
+}
+
+/* 見出し */
+.heading {
+  scroll-margin-top: 2rem;
+}
+
+/* メニュー */
+.menu {
+  position: sticky;
+  top: 2rem;
+  
+  background: #eee;
+  list-style: none;
+  flex: 1;
+  margin-top: 4rem;
+  padding: 1rem 2rem;
+}
+.menu a {
+  display: block;
+  color: #0bd;
+  padding: 1rem 0;
+  text-decoration: none;
+}
+
+/* 基本スタイル */
+body {
+  padding: 1rem;
+}
+main {
+  flex: 4;
+}
+h1 {
+  margin: 4rem 0;
+  text-align: center;
+}
+h2 {
+  margin-top: 4rem;
+  font-size: 2rem;
+}
+p {
+  font-size: 1.25rem;
+  line-height: 1.6;
+}
+.wrapper {
+  display: flex;
+  gap: 3rem;
+  align-items: flex-start;
+  max-width: 800px;
+  margin: auto;
+}
